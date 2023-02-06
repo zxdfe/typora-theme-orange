@@ -11,9 +11,9 @@
   word-break: break-word;
   word-wrap: break-word;
   text-align: left;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   /* font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  font-family: 'Cascadia Code', Consolas;
+  /* font-family: 'Cascadia Code', Consolas; */
 }
 
 /*段落*/
@@ -229,6 +229,7 @@
   background-size: 40px;
   background-repeat: no-repeat;
   background-color: #282c34;
+  /* background-color: #f5f7f9; */
   margin-bottom: -7px;
   border-radius: 5px;
   background-position: 10px 10px;
@@ -241,7 +242,8 @@
 .cm-s-inner.CodeMirror {
   padding: .5rem;
   /* background-color: #292d3e; */
-  background-color: #1E1E1E;
+  /* background-color: #f5f7f9; */
+  background-color: #243959;
   color: #a6accd;
   font-family: Consolas;
   border-radius: 4px;
@@ -283,8 +285,8 @@
 }
 /* 代码注释 */
 .cm-s-inner .cm-comment {
-  /* color: #676e95 !important; */
-  color: #6A9955 !important;
+  color: #aebcc2 !important;
+  /* color: #6A9955 !important; */
 }
 .cm-s-inner .cm-variable {
   color: #f07178 !important;
